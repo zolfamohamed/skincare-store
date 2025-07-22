@@ -1,0 +1,62 @@
+.contain {
+    width: 50%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #FFF2EB;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    font-family: "Playfair Display", serif;
+    color: #ef6a97;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    font-family: "Playfair Display", serif;
+    color: #ef6a97;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px 0 5px 0;
+}
+
+.input {
+    width: 100%;
+    padding: 8px 5px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s;
+    font-family: "Playfair Display", serif;
+    background-color: transparent;
+}
+
+.input:focus {
+    border-bottom: 2px solid #ef6a97;
+}
+
+textarea.input {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.bc {
+    margin-top: 15px;
+    background-color: #ef6a97;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bc:hover {
+    background-color: white;
+    color: #ef6a97;
+
+}
